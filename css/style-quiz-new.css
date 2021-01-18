@@ -1,0 +1,266 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+*, ::before, ::after {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    list-style: none;
+}
+body{
+    font-family: Montserrat;
+    background-image: linear-gradient(158deg, rgba(84, 84, 84, 0.03) 0%, rgba(84, 84, 84, 0.03) 20%,rgba(219, 219, 219, 0.03) 20%, rgba(219, 219, 219, 0.03) 40%,rgba(54, 54, 54, 0.03) 40%, rgba(54, 54, 54, 0.03) 60%,rgba(99, 99, 99, 0.03) 60%, rgba(99, 99, 99, 0.03) 80%,rgba(92, 92, 92, 0.03) 80%, rgba(92, 92, 92, 0.03) 100%),linear-gradient(45deg, rgba(221, 221, 221, 0.02) 0%, rgba(221, 221, 221, 0.02) 14.286%,rgba(8, 8, 8, 0.02) 14.286%, rgba(8, 8, 8, 0.02) 28.572%,rgba(52, 52, 52, 0.02) 28.572%, rgba(52, 52, 52, 0.02) 42.858%,rgba(234, 234, 234, 0.02) 42.858%, rgba(234, 234, 234, 0.02) 57.144%,rgba(81, 81, 81, 0.02) 57.144%, rgba(81, 81, 81, 0.02) 71.42999999999999%,rgba(239, 239, 239, 0.02) 71.43%, rgba(239, 239, 239, 0.02) 85.71600000000001%,rgba(187, 187, 187, 0.02) 85.716%, rgba(187, 187, 187, 0.02) 100.002%),linear-gradient(109deg, rgba(33, 33, 33, 0.03) 0%, rgba(33, 33, 33, 0.03) 12.5%,rgba(147, 147, 147, 0.03) 12.5%, rgba(147, 147, 147, 0.03) 25%,rgba(131, 131, 131, 0.03) 25%, rgba(131, 131, 131, 0.03) 37.5%,rgba(151, 151, 151, 0.03) 37.5%, rgba(151, 151, 151, 0.03) 50%,rgba(211, 211, 211, 0.03) 50%, rgba(211, 211, 211, 0.03) 62.5%,rgba(39, 39, 39, 0.03) 62.5%, rgba(39, 39, 39, 0.03) 75%,rgba(55, 55, 55, 0.03) 75%, rgba(55, 55, 55, 0.03) 87.5%,rgba(82, 82, 82, 0.03) 87.5%, rgba(82, 82, 82, 0.03) 100%),linear-gradient(348deg, rgba(42, 42, 42, 0.02) 0%, rgba(42, 42, 42, 0.02) 20%,rgba(8, 8, 8, 0.02) 20%, rgba(8, 8, 8, 0.02) 40%,rgba(242, 242, 242, 0.02) 40%, rgba(242, 242, 242, 0.02) 60%,rgba(42, 42, 42, 0.02) 60%, rgba(42, 42, 42, 0.02) 80%,rgba(80, 80, 80, 0.02) 80%, rgba(80, 80, 80, 0.02) 100%),linear-gradient(120deg, rgba(106, 106, 106, 0.03) 0%, rgba(106, 106, 106, 0.03) 14.286%,rgba(67, 67, 67, 0.03) 14.286%, rgba(67, 67, 67, 0.03) 28.572%,rgba(134, 134, 134, 0.03) 28.572%, rgba(134, 134, 134, 0.03) 42.858%,rgba(19, 19, 19, 0.03) 42.858%, rgba(19, 19, 19, 0.03) 57.144%,rgba(101, 101, 101, 0.03) 57.144%, rgba(101, 101, 101, 0.03) 71.42999999999999%,rgba(205, 205, 205, 0.03) 71.43%, rgba(205, 205, 205, 0.03) 85.71600000000001%,rgba(53, 53, 53, 0.03) 85.716%, rgba(53, 53, 53, 0.03) 100.002%),linear-gradient(45deg, rgba(214, 214, 214, 0.03) 0%, rgba(214, 214, 214, 0.03) 16.667%,rgba(255, 255, 255, 0.03) 16.667%, rgba(255, 255, 255, 0.03) 33.334%,rgba(250, 250, 250, 0.03) 33.334%, rgba(250, 250, 250, 0.03) 50.001000000000005%,rgba(231, 231, 231, 0.03) 50.001%, rgba(231, 231, 231, 0.03) 66.668%,rgba(241, 241, 241, 0.03) 66.668%, rgba(241, 241, 241, 0.03) 83.33500000000001%,rgba(31, 31, 31, 0.03) 83.335%, rgba(31, 31, 31, 0.03) 100.002%),linear-gradient(59deg, rgba(224, 224, 224, 0.03) 0%, rgba(224, 224, 224, 0.03) 12.5%,rgba(97, 97, 97, 0.03) 12.5%, rgba(97, 97, 97, 0.03) 25%,rgba(143, 143, 143, 0.03) 25%, rgba(143, 143, 143, 0.03) 37.5%,rgba(110, 110, 110, 0.03) 37.5%, rgba(110, 110, 110, 0.03) 50%,rgba(34, 34, 34, 0.03) 50%, rgba(34, 34, 34, 0.03) 62.5%,rgba(155, 155, 155, 0.03) 62.5%, rgba(155, 155, 155, 0.03) 75%,rgba(249, 249, 249, 0.03) 75%, rgba(249, 249, 249, 0.03) 87.5%,rgba(179, 179, 179, 0.03) 87.5%, rgba(179, 179, 179, 0.03) 100%),linear-gradient(241deg, rgba(58, 58, 58, 0.02) 0%, rgba(58, 58, 58, 0.02) 25%,rgba(124, 124, 124, 0.02) 25%, rgba(124, 124, 124, 0.02) 50%,rgba(254, 254, 254, 0.02) 50%, rgba(254, 254, 254, 0.02) 75%,rgba(52, 52, 52, 0.02) 75%, rgba(52, 52, 52, 0.02) 100%),linear-gradient(90deg, #ffffff,#ffffff);
+    overflow: hidden;
+    height: 100vh;
+    display: flex;
+    align-items:center;
+    flex-direction: column;
+    position: relative;
+    z-index: -10;
+    
+}
+
+header{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    font-size: 3.2vw;
+    font-weight: 500;
+    letter-spacing: 0.01rem;
+    height: 8vh;
+    width:100%;
+    background-color: rgba(196, 195, 195);
+    padding:40px 180px 40px 40px;
+    position: relative;
+    z-index: 10;
+}
+.tel{
+    color:  rgb(248, 76, 76);
+    display:contents;
+    
+}
+main{
+    position: relative;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction: column;
+    width:100%;
+    flex: 1 0 auto;
+    /* background-color: rgb(27, 141, 27); */
+    z-index:5;
+}
+footer{
+    /* background-color: rgb(27, 141, 27); */
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    width:100%;
+    cursor: pointer;
+}
+.controle{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    height:100%;
+    width: 100%;
+    background-color: rgba(180, 180, 180, 0.4);
+    opacity:0;
+    font-size: 1.6rem;
+    transform: translateY(100px);
+    transition: 0.2s ease-out;
+}
+.barcontroleopen{
+    transform: translateY(0px);
+    opacity:1;
+}
+.barcontroleclose{
+    transform: translateY(100px);
+    opacity:0;
+}
+.play, .arret, .pause{
+    display:none;
+}
+.fondbar{
+    position: relative;
+    height: 10px;
+    width: 600px;
+    background-color: rgb(248, 76, 76);
+    display: flex;
+    align-items: center;
+    margin-bottom:80px;
+    z-index:100;
+}
+
+.bardef{
+    position: absolute;
+    right: 0;
+    height: 10px;
+    width: 1px;
+    background-color: black; 
+    transform-origin: left;
+
+}
+
+.deplacement-bardef{
+    animation: deplacement-bardef 60s forwards linear;
+    /* animation-play-state: paused; */
+}
+
+.rond{
+    position: absolute;
+    right: 0;
+    width:50px;
+    height:50px;
+    border-radius: 50%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    z-index: 100;
+}
+.deplacement-rond{
+    animation: deplacement-rond 60s forwards linear;
+    
+}
+
+.rond p{
+    color: white;
+    font-size: 1rem;
+}
+
+ @keyframes deplacement-rond{
+    to{
+        transform: translateX(-551px);
+    }
+} 
+
+@keyframes deplacement-bardef {
+    to{
+        /*transform: translateX(-550px);*/
+         /* transform: scaleX(-650);  */
+         width:552px;
+    }
+}
+#audio, #gong{
+    display: none;
+}
+
+
+/* COMPTEUR */
+.compteur{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top:0px;
+    right: 0;
+    width:160px;
+    height:80px;
+    background-color: rgba(100, 100, 100, 0.178);
+    /* background-image: linear-gradient(180deg, rgba(84, 84, 84, 0.5) 0%, rgba(84, 84, 84, 0) 80%); */
+    color:white;
+    font-size: 2rem;
+    letter-spacing: 0.2rem;
+    /*border-radius: 10px 0px 0px 10px;*/
+    /* opacity: 0; */
+    z-index: -1;
+}
+.deplacement-compteur{
+    animation: deplacement-compteur 0.2s ease-out forwards;
+}
+@keyframes deplacement-compteur{
+    to{
+        transform: translateY(70px);
+        opacity: 1;
+    }
+}
+
+/* LA QUESTION */
+
+.laquestion{
+    width: 100%;
+    font-size: 3rem;
+    font-weight: 500;
+    text-align: center;
+    padding:5px 50px;
+
+}
+
+/* LES REPONSES */
+.zone-resultat{
+    width: 100%; 
+
+}
+.liste-resultat{
+    display: flex;
+    justify-content:flex-start;
+    flex-wrap: wrap;
+    width: 80%;
+    margin:70px auto 0;
+
+}
+.rep{
+    position: relative;
+    display: flex;
+    margin:20px;
+    height: 100px;
+    flex:1 0 40%;    
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(175, 175, 175, 0.521);
+    font-size: 2rem;
+    border-radius: 10px;
+}
+.lettre{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 3px solid rgba(255, 255, 255, 0.562);
+    background-color: #F44336;
+    font-size: 1.5rem;
+    color: white;
+    top: 50%;
+    left: 0px;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.rep1{    
+    order:1;
+}
+.rep2{
+    order:2;
+}
+.rep3{
+    order:3;
+}
+.rep4{
+    order:4;
+}
+.active{
+    background-color:rgb(45, 194, 65);
+}
+
+.nbr{
+    position: absolute;
+    width: 100%;
+    height: 15px;
+    background-color: #6edaad;
+    font-size: 1rem;
+    color: white;
+    bottom: 0px;
+    right: 0px;
+    padding-right:5px;
+    z-index: 2;
+    display: flex;
+    align-items:center;
+    justify-content:flex-end
+}

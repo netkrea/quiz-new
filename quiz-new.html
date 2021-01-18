@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bar Quiz</title>
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet"> -->
+    <link rel="stylesheet" href="css/style-quiz-new.css">
+</head>
+<body>
+    <header>Envoyez votre choix par SMS au <span class="tel">06 44 63 02 27</span><div class="compteur">0000</div></header>
+    
+    <main>
+        
+        <div class="laquestion">Combien d'années Barack Obama a-t-il<br /> été Président des USA ?</div>
+        <div class="zone-resultat">
+
+            <ul class="liste-resultat">
+                <li class="rep rep1"><div class="lettre">A</div> 4 ans</li>
+                <li class="rep rep2 "><div class="lettre">B</div> 8 ans</li>
+                <li class="rep rep3"><div class="lettre">C</div> 10 ans</li>
+                <li class="rep rep4"><div class="lettre">D</div> 12 ans</li>
+            </ul>
+        </div>
+    </main>
+
+    <footer>
+       <div class="fondbar"><div class="rond"><p id="compte">30</p></div><div class="bardef"></div></div>
+       <div class="controle">
+           <span class="prec">⏮️</span> 
+           <span class="rec">⏺</span>
+           <span class="arret">⏹</span>
+           <span class="pause">⏸️</span>
+           <span class="play">▶️</span> 
+           <span class="suiv">⏭️</span>
+        </div>
+    </footer>
+
+    <audio id="audio" loop src="/mp3/song.mp3"></audio>
+    <audio id="gong" src="/mp3/gong.mp3"></audio>
+
+<script src="js/script-quiz-new.js"></script>
+</body>
+</html>
